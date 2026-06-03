@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+
+```
+<script src="https://cdn.tailwindcss.com"></script>
+```
+
+</head>
+
+<body class="min-h-screen bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 flex items-center justify-center">
+
+```
+<div class="w-full max-w-lg bg-white p-8 rounded-2xl shadow-2xl">
+
+    <h1 class="text-4xl font-bold text-center text-gray-800 mb-2">
+        Our Task
+    </h1>
+
+    <p class="text-center text-gray-500 mb-6">
+        Dwita Hadi
+    </p>
+
+    <div class="flex gap-3 mb-6">
+
+        <input
+            type="text"
+            id="todo-input"
+            placeholder="Masukkan tugas..."
+            class="flex-1 px-4 py-3 border-2 border-gray-200 rounded-xl focus:outline-none focus:border-purple-500">
+
+        <button
+            id="add-btn"
+            class="px-6 py-3 bg-purple-600 text-white rounded-xl hover:bg-purple-700 transition duration-300">
+            Add
+        </button>
+
+    </div>
+
+    <ul id="todo-list" class="space-y-3"></ul>
+
+</div>
+
+<script src="script3.js"></script>
+
+</body>
+
+</html>
